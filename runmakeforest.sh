@@ -21,5 +21,5 @@ echo filename=`head -n${filenum} $2 | tail -n1`
 filename=`head -n${filenum} $2 | tail -n1`
 sed "s@_file_flag_@${filename}@g" ${4} > run.py
 cmsRun run.py
-mv forest_data.root ${3}/forest_data_${filenum}.root 
-rm run.py
+#mv forest_data.root ${3}/forest_data_${filenum}.root 
+#rm run.py

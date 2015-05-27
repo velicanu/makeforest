@@ -29,3 +29,8 @@
 
 # temp files
 *_proddir
+run.py
+*.root
+_*.txt
+runmakeforest.sh
+makeforest.condor
