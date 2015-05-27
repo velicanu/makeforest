@@ -13,5 +13,5 @@ should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
 transfer_input_files = runForest_44X.py,Run2010A_JetMETTau_RECO_Apr21ReReco-v1.txt
 
-Queue 2799
+Queue 10
 
