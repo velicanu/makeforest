@@ -34,3 +34,5 @@ eval `scramv1 runtime -sh`
 declare \$( printenv | grep export/d00 | sed 's/export\/d00/cvmfs\/cvmfs.cmsaf.mit.edu\/hidsk0001/g' )
 cd -
 ```
+
+Long version here:  https://twiki.cern.ch/twiki/bin/view/CMS/MITLocalSubmission
